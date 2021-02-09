@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TP Météo HTML</title>
+    <meta charset="UTF-8" />
+  </head>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .html {
+      font-family: sans-serif;
+      font-size: 2em;
+      background: black;
+      color: white;
+      text-align: center;
+    }
+
+    .ville {
+      background: rgb(238, 228, 228);
+      margin: 1em;
+      width: 20%;
+    }
+
+    h1 {
+      text-align: left;
+      color: black;
+      line-height: 3em;
+      font-size: 20px;
+    }
+
+    .foot {
+      background: rgb(241, 229, 229);
+      color: black;
+      padding: -1em, 1em;
+      margin: 1em, 2em;
+    }
+
+    .ville {
+      background: rgb(156, 151, 151);
+    }
+  </style>
+  <body>
+    <div class="html">
+      <p>TP Météo HTML</p>
+    </div>
+    <div class="container">
+      <div class="ville">
+        <h1>Paris</h1>
+        <p>-1°, pluvieux</p>
+        <img
+          src="noun_rain_cloud_653384.png"
+          alt="image pluie"
+          height="50"
+          width="50"
+        />
+      </div>
+      <div class="ville">
+        <h1>Lyon</h1>
+        <p>3°, nuageux</p>
+        <img
+          src="noun_clouds_653375.png"
+          alt="image nuage"
+          height="50"
+          width="50"
+        />
+      </div>
+      <div class="ville">
+        <h1>Casablanca</h1>
+        <p>20°, ensoleillé</p>
+        <img
+          src="noun_sun_659475.png"
+          alt="image soleil"
+          height="50"
+          width="50"
+        />
+      </div>
+      <div class="ville">
+        <h1>Barcelone</h1>
+        <p>14°, averses</p>
+        <img
+          src="noun_Heavy_Rain_Cloud_653388.png"
+          alt="image soleil"
+          height="50"
+          width="50"
+        />
+      </div>
+    </div>
+    <footer class="foot">
+      <p>Wafaa Boudaour</p>
+      <p>
+        icones météo par
+        <a href="https://thenounproject.com/search/collection/?q=weather"
+          >NounProject</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
