@@ -5,7 +5,9 @@
     <meta charset="UTF-8" />
 
     <script>
-      function showCity() { console.log(villeCourante); }
+      function showCity() { 
+        /*console.log(villeCourante);*/
+        var ville = document.getElementByld("villes").value; }
 
       let villeCourante = "Lyon";
 
@@ -29,16 +31,6 @@
       background: rgb(238, 228, 228);
       margin: 1em;
       width: 20%;
-    }
-
-    .p {
-      background : red;
-      margin : 1em;
-      width : 20%;
-    }
-
-    .L {
-      background: purple;
     }
 
     h1 {
@@ -68,7 +60,7 @@
 
     <label for="ville-select">Choisissez votre ville :</label>
 
-      <select name="ville" id="ville-select">
+      <select name="ville" id="ville">
         <option value="">--Veuillez choisir votre ville </option>
         <option value="Barcelone">Casablanca</option>
         <option value="Casablanca">Paris</option>
@@ -81,7 +73,7 @@
 
 
     <div class="container">
-      <div class="p">
+      <div class="ville">
         <h1>Paris</h1>
         <p>-1°, pluvieux</p>
         <img
@@ -91,7 +83,7 @@
           width="50"
         />
       </div>
-      <div class="L">
+      <div class="ville">
         <h1>Lyon</h1>
         <p>3°, nuageux</p>
         <img
