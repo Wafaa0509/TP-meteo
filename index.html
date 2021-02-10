@@ -7,18 +7,9 @@
     <script>
       function showCity() { 
         /*console.log(villeCourante);*/
-        var ville = document.getElementByclass("villes").value; }
+        var ville = document.getElementByld("ville").value; }
 
-      //let villeCourante = "Lyon";
-
-      <select onchange="showCity()" class="ville">
-          <option value="">--Veuillez choisir votre ville </option>
-          <option value="Barcelone">Casablanca</option>
-          <option value="Casablanca">Paris</option>
-          <option value="Lyon">Lyon</option>
-          <option value="Paris">Barcelone</option>
-
-        </select>
+      let villeCourante = "Lyon";
 
     </script>
   </head>
@@ -36,7 +27,7 @@
       text-align: center;
     }
 
-    .ville {
+    #ville {
       background: rgb(238, 228, 228);
       margin: 1em;
       width: 20%;
@@ -76,11 +67,15 @@
         <option value="Lyon">Lyon</option>
         <option value="Paris">Barcelone</option>
 
+        <select onchange=showCity() id="ville">
+
+        </select>
+
       </select>
 
 
     <div class="container">
-      <div class="ville">
+      <div id="ville">
         <h1>Paris</h1>
         <p>-1°, pluvieux</p>
         <img
@@ -90,7 +85,7 @@
           width="50"
         />
       </div>
-      <div class="ville">
+      <div id="ville">
         <h1>Lyon</h1>
         <p>3°, nuageux</p>
         <img
@@ -100,7 +95,7 @@
           width="50"
         />
       </div>
-      <div class="ville">
+      <div id="ville">
         <h1>Casablanca</h1>
         <p>20°, ensoleillé</p>
         <img
@@ -110,7 +105,7 @@
           width="50"
         />
       </div>
-      <div class="ville">
+      <div id="ville">
         <h1>Barcelone</h1>
         <p>14°, averses</p>
         <img
