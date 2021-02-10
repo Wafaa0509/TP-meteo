@@ -9,7 +9,16 @@
         /*console.log(villeCourante);*/
         var ville = document.getElementByld("villes").value; }
 
-      let villeCourante = "Lyon";
+      //let villeCourante = "Lyon";
+
+      <select onchange=showCity() id="ville">
+          <option value="">--Veuillez choisir votre ville </option>
+          <option value="Barcelone">Casablanca</option>
+          <option value="Casablanca">Paris</option>
+          <option value="Lyon">Lyon</option>
+          <option value="Paris">Barcelone</option>
+
+        </select>
 
     </script>
   </head>
@@ -66,15 +75,6 @@
         <option value="Casablanca">Paris</option>
         <option value="Lyon">Lyon</option>
         <option value="Paris">Barcelone</option>
-
-        <select onchange=showCity() id="ville">
-          <option value="">--Veuillez choisir votre ville </option>
-          <option value="Barcelone">Casablanca</option>
-          <option value="Casablanca">Paris</option>
-          <option value="Lyon">Lyon</option>
-          <option value="Paris">Barcelone</option>
-
-        </select>
 
       </select>
 
