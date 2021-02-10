@@ -1,6 +1,6 @@
 function showCity() { 
-    /*console.log(villeCourante);*/
-    /*var ville = document.getElementByld("ville").value; }*/
+    console.log(ville);*/
+    var ville = document.getElementByld("ville").value; }*/
     let nomVilleSelectionnee = document.getElementById("ville-select").value;
     let villes = document.getElementsByClassName("ville");
 
