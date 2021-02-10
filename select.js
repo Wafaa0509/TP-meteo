@@ -1,6 +1,6 @@
 function showCity() { 
     
-    let nomVilleSelectionnee = document.getElementById("ville-select").value;
+    let nomVilleSelectionnee = document.getElementById("ville").value;
     let ville = document.getElementsByClassName("ville");
 
     for (i=0; i<4; i++){
