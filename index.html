@@ -53,17 +53,20 @@
   <body>
     <div class="html">
       <p>Météo des villes</p>
-      <body onload="showCity()">
+      <body>
     </div>
 
     <label for="ville-select">Choisissez votre ville :</label>
-    
+
       <select name="ville" id="ville-select">
         <option value="">--Veuillez choisir votre ville </option>
         <option value="Casablanca">Casablanca</option>
         <option value="Paris">Paris</option>
         <option value="Lyon">Lyon</option>
         <option value="Barcelone">Barcelone</option>
+
+        <select onchange=showCity()>
+          
       </select>
 
 
