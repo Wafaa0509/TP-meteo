@@ -58,9 +58,6 @@
       margin: 1em, 2em;
     }
 
-    /*.ville {
-      background: rgb(156, 151, 151);
-    }*/
   </style>
 
   <body>
@@ -69,16 +66,16 @@
       <body>
     </div>
 
-    <label for="ville">Choisissez votre ville :</label>
+    <label for="ville-select">Choisissez votre ville :</label>
 
-      <select name="ville" id="ville">
+      <select name="ville" id="ville-select">
         <option value="">--Veuillez choisir votre ville </option>
         <option value="Barcelone">Casablanca</option>
         <option value="Casablanca">Paris</option>
         <option value="Lyon">Lyon</option>
         <option value="Paris">Barcelone</option>
 
-        <select onchange=showCity() id="ville">
+        <select onchange=showCity() id="ville-select">
 
         </select>
 
