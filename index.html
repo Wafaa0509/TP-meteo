@@ -4,25 +4,11 @@
     <title>Météo des villes</title>
     <meta charset="UTF-8" />
 
-    <script>
-      function showCity() { 
-        /*console.log(villeCourante);*/
-        //var ville = document.getElementByld("ville").value; }*/
-        let nomVilleSelectionnee = document.getElementById("ville-select").value;
-        let villes = document.getElementsByClassName("ville");
+    <link rel="stylesheet" type="text/css" gref="css-code.css">  
+    
+    <script type="text/javascript" src="select.js"></script>
 
-        for (i=0; i<4; i++){
-          if(villes[i].id == nomVilleSelectionnee){
-            villes[i].style.display = "inline";
-          } else {
-            villes[i].style.display = "none";
-          }
-        }
-      }
 
-      //let villeCourante = "Lyon";
-
-    </script>
   </head>
   <style>
     .container {
