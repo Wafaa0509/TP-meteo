@@ -31,6 +31,14 @@
       width: 20%;
     }
 
+    .p {
+      background : red;
+    }
+
+    .L {
+      background: purple;
+    }
+
     h1 {
       text-align: left;
       color: black;
@@ -60,10 +68,10 @@
 
       <select name="ville" id="ville-select">
         <option value="">--Veuillez choisir votre ville </option>
-        <option value="Casablanca">Casablanca</option>
-        <option value="Paris">Paris</option>
+        <option value="Barcelone">Casablanca</option>
+        <option value="Casablanca">Paris</option>
         <option value="Lyon">Lyon</option>
-        <option value="Barcelone">Barcelone</option>
+        <option value="Paris">Barcelone</option>
 
         <select onchange=showCity()>
 
@@ -71,7 +79,7 @@
 
 
     <div class="container">
-      <div class="ville">
+      <div class="p">
         <h1>Paris</h1>
         <p>-1°, pluvieux</p>
         <img
@@ -81,7 +89,7 @@
           width="50"
         />
       </div>
-      <div class="ville">
+      <div class="L">
         <h1>Lyon</h1>
         <p>3°, nuageux</p>
         <img
